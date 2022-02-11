@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bro Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-sky-100">
+    <header>
+      <h1 class="text-5xl text-center mt-16">
+        Welcome to
+        <span class="font-semibold text-emerald-900"> Bro Bank!</span>
+      </h1>
+    </header>
+    <main>
+      <section class="bg-sky-600 p-8 w-3/4 mx-auto mt-8">
+        <h3 class="text-2xl mb-5 text-white">Please Login</h3>
+        <div>
+          <input
+            id="user-email"
+            class="border-2 block rounded border-gray-400 w-2/3 mb-5 px-2"
+            type="text"
+            placeholder="someone@domain.com"
+          />
+          <input
+            id="user-password"
+            class="border-2 block rounded border-gray-400 w-2/3 mb-5 px-2"
+            type="password"
+            name=""
+            id=""
+            placeholder="password"
+          />
+          <button
+            id="login-btn"
+            class="bg-sky-500/100 px-4 rounded py-2 text-white font-medium"
+          >
+            Login
+          </button>
+        </div>
+      </section>
+      <section class="text-center mt-8">
+        <div>
+          <h5 class="text-3xl font-semibold">
+            This is educational Purpose Demo
+          </h5>
+          <br />
+          Use the email and password to login and view the content inside.
+          <h6 class="text-2xl">Email: <span>admin@demo.com</span></h6>
+          <h6 class="text-2xl">Password: <span>demopass</span></h6>
+        </div>
+      </section>
+    </main>
+
+    <!-- js here -->
+    <script src="js/login.js"></script>
+  </body>
+</html>
